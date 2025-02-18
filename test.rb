@@ -1,4 +1,4 @@
-name = "Jane"
+name = "Diane"
 
 if name == "Tim"
   puts "Hi, #{name}."
