@@ -11,6 +11,8 @@ multiline comment.
 
 =end
 
+# Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above
+
 name = "Diane"
 
 if name == "Tim"
