@@ -1,3 +1,5 @@
+puts "Hello World"
+
 name = "Diane"
 
 if name == "Tim"
