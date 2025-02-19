@@ -58,6 +58,9 @@ puts 8 * 2 # Une multiplication
 
 puts 81 / 9 # Une division
 
+puts 3 ** 3 # Une exponentiation
+
+puts 4 % 10 # Un modulus
 
 ## Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above.
 
