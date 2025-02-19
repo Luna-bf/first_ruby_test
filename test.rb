@@ -56,6 +56,8 @@ puts 12 - 9 # Une soustraction
 
 puts 8 * 2 # Une multiplication
 
+puts 81 / 9 # Une division
+
 
 ## Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above.
 
