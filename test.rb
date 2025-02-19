@@ -62,6 +62,22 @@ puts 3 ** 3 # Une exponentiation
 
 puts 4 % 10 # Un modulus
 
+## Opérateurs d'affectation
+
+puts a = 5
+puts a = a + 1
+puts a += 1 # Addition
+
+puts a -= 2 # Soustraction
+
+puts a *= 5 # Multiplication
+
+puts a /= 2 # Division
+
+puts a **= 3 # Exponentiation
+
+puts a %= 2 # Modulo
+
 ## Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above.
 
 name = "Diane"
