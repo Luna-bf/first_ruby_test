@@ -94,6 +94,27 @@ puts a, b = [1, 2, 4] # On peut dispatcher les valeurs d'un tableau à des varia
 puts a, b, *c = [1, 2, 3, 4] # Cependant on peut donner les valeurs restantes à une variable, ici c récupère toutes les valeurs sans variable
 
 
+## Opérateurs de comparaison
+
+puts 4 > 3 # 4 est plus grand que 3
+
+puts 2 < 1 # 2 est plus petit que 1
+
+puts 3 == 3 # 3 est égal à 3
+
+puts 8 != 10 # 8 n'est pas égal à 10
+
+puts 7 >= 14 # 7 est plus grand OU égal à 14
+
+puts 4 <= 5 # 4 est plus petit OU égal à 5
+
+puts 3 <=> 3 # Opérateurs de comparaison combinés (les deux chiffres sont égaux alors on obtient 0)
+
+puts 3 <=> 0 # On obtient 1 si le premier chiffre est supérieur au second
+
+puts 3 <=> 8 # On obtient -1 si le second chiffre est supérieur au premier
+
+
 ## Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above.
 
 name = "Diane"
