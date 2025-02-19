@@ -15,7 +15,7 @@ multiline comment.
 
 =begin
 En Ruby, tout est un objet appartenant à une classe. On peut créer une classe comme ceci : object.class
-Voici un exemple plus précis :
+Voici des exemples :
 =end
 
 puts "Hello".class # Cela va me donner une chaîne de caractères (String).
@@ -28,9 +28,24 @@ puts 1_000_000.class # Les tirets du 8 aident simplement à rendre les grands no
 
 puts 5.85.class # Attention à bien mettre le '.' et pas la ',' sinon le nombre sera considéré comme entier.
 
-puts true.class # Booléen (true)
+puts true.class # Booléen (vrai)
 
-puts false.class # Booléen (false)
+puts false.class # Booléen (faux)
+
+puts ["Bojack Horseman", "Madoka Magica", "Warrior Cats"].class # Un tableau
+
+puts { :name => "Stanley" }.class # Un hash
+
+=begin
+
+Les tableaux et les hashs sont des collections d'objet, la différence est que les tableaux sont
+des collections d'objets, alors que les hashs sont des pairs (clé + valeur) nommées 'Symbols'.
+
+Les symbols sont utilisées pour représenter d'autres objets et sont des strings plus légères,
+ dans le sens où elles prennent moins de place dans la mémoire ce qui améliore leur performance.
+
+=end
+
 
 
 # Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above.
