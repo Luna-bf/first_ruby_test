@@ -20,13 +20,17 @@ Voici un exemple plus précis :
 
 puts "Hello".class # Cela va me donner une chaîne de caractères (String).
 
-# On peut faire pareil avec les autres types de données, comme les nombres entiers, décimaux, etc.
+# On peut faire pareil avec les autres types de données, comme les nombres entiers et décimaux, les booléens, etc.
 
 puts 19.class # Nombre entier
 
 puts 1_000_000.class # Les tirets du 8 aident simplement à rendre les grands nombres lisibles.
 
 puts 5.85.class # Attention à bien mettre le '.' et pas la ',' sinon le nombre sera considéré comme entier.
+
+puts true.class # Booléen (true)
+
+puts false.class # Booléen (false)
 
 
 # Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above.
