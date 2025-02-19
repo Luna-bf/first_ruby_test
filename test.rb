@@ -11,6 +11,7 @@ multiline comment.
 
 =end
 
+
 ## Type de données
 
 =begin
@@ -46,6 +47,7 @@ dans le sens où ils prennent moins de place dans la mémoire ce qui améliore l
 
 =end
 
+
 ## Nombres et opérateurs
 
 # On peut aussi effectuer des opérations en Ruby, voici des exemples :
@@ -62,6 +64,7 @@ puts 3 ** 3 # Une exponentiation
 
 puts 4 % 10 # Un modulus
 
+
 ## Opérateurs d'affectation
 
 puts a = 5
@@ -77,6 +80,19 @@ puts a /= 2 # Division
 puts a **= 3 # Exponentiation
 
 puts a %= 2 # Modulo
+
+
+## Affectation parallèle
+
+puts a, b = 4, 5 # a aura pour valeur le chiffre 4 et b le chiffre 5
+puts a, b = b, a # On peut aussi inverser les valeurs
+puts a = b = 10 # On peut aussi assigner une seule et même valeur pour les deux variables
+puts a = 15, 20 # Mais également assigner plusieurs valeurs à une seule variable
+
+puts a, b = [1, 2, 4] # On peut dispatcher les valeurs d'un tableau à des variables, a aura la valeur 1, b aura la valeur 2, et 4 reste là sans variable
+
+puts a, b, *c = [1, 2, 3, 4] # Cependant on peut donner les valeurs restantes à une variable, ici c récupère toutes les valeurs sans variable
+
 
 ## Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above.
 
