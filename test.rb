@@ -11,6 +11,16 @@ multiline comment.
 
 =end
 
+# Type de données
+
+=begin
+En Ruby, tout est un objet appartenant à une classe. On peut créer une classe comme ceci : object.class.
+Voici un exemple plus précis :
+=end
+
+puts "Hello".class # Cela va me donner une chaîne de caractères (String) 
+
+
 # Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above
 
 name = "Diane"
