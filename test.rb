@@ -11,7 +11,7 @@ multiline comment.
 
 =end
 
-# Type de données
+## Type de données
 
 =begin
 En Ruby, tout est un objet appartenant à une classe. On peut créer une classe comme ceci : object.class
@@ -39,16 +39,25 @@ puts { :name => "Stanley" }.class # Un hash
 =begin
 
 Les tableaux et les hashs sont des collections d'objet, la différence est que les tableaux sont
-des collections d'objets, alors que les hashs sont des pairs (clé + valeur) nommées 'Symbols'.
+des collections d'objets, alors que les hashs sont des paires (clé + valeur) nommées 'Symbols'.
 
-Les symbols sont utilisées pour représenter d'autres objets et sont des strings plus légères,
- dans le sens où elles prennent moins de place dans la mémoire ce qui améliore leur performance.
+Les symbols sont utilisés pour représenter d'autres objets et sont des strings plus légères,
+dans le sens où ils prennent moins de place dans la mémoire ce qui améliore leur performance.
 
 =end
 
+## Nombres et opérateurs
+
+# On peut aussi effectuer des opérations en Ruby, voici des exemples :
+
+puts 3 + 5 # Une addition
+
+puts 12 - 9 # Une soustraction
+
+puts 8 * 2 # Une multiplication
 
 
-# Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above.
+## Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above.
 
 name = "Diane"
 
