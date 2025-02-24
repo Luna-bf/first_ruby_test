@@ -114,6 +114,8 @@ puts 3 <=> 0 # On obtient 1 si le premier chiffre est supérieur au second
 
 puts 3 <=> 8 # On obtient -1 si le second chiffre est supérieur au premier
 
+puts String === "Hello World !" # On obtient true car "Hello World !" est bien une String
+
 
 ## Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above.
 
