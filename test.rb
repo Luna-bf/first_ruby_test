@@ -116,6 +116,24 @@ puts 3 <=> 8 # On obtient -1 si le second chiffre est supérieur au premier
 
 puts String === "Hello World !" # On obtient true car "Hello World !" est bien une String
 
+puts 10 === (1..10) # On obtient false car :
+
+=begin
+
+10 === (1..10) asks if 10 is included within the range 1..10. 
+Since 10 is indeed the upper bound of this range, we might expect it to return true.
+
+But, the range (1..10) is treated as an object, and the === operator is applied as if it's a method call 
+on the range object. For ranges, === behaves like a match check, and when applied to a range like (1..10), 
+it is looking for the range to be in the case expression (or checking inclusion). 
+It doesn't behave exactly the same way as other inclusion checks like range.include?.
+
+Source : ChatGPT
+
+=end
+
+
+
 
 ## Simple Ruby lines from "How to set up VS Code for Ruby", made before everything that's above.
 
